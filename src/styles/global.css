@@ -112,6 +112,7 @@ p {
     font-size: 18px;
     font-weight: 200;
     cursor: pointer;
+    border-radius: 35px;
 }
 
 .c-pointer{
@@ -172,5 +173,41 @@ header{
 
 .features-item {
     width: 200px;
+}
 
+.videoContainer {
+    margin-top: 100px;
+}
+
+.playBtn {
+    width: 120px;
+    position: absolute;
+    top: 780px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    z-index: 2;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.pauseBtn {
+    position: absolute;
+    top: 730px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    border: none;
+    z-index: 1;
+    width: 1000px;
+    height: 586px;
+    background-color: transparent;
+}
+
+.mainVideo {
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 30px rgba(0,0,0,0.1);
+    margin: 0 auto;
 }
