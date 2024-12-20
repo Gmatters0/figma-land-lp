@@ -111,6 +111,11 @@ p {
     height: 45px;
     font-size: 18px;
     font-weight: 200;
+    cursor: pointer;
+}
+
+.c-pointer{
+    cursor: pointer;
 }
 
 /* INDIVIDUAL COMPONENTS CSS */
