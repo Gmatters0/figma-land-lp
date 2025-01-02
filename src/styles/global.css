@@ -1,10 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/graphik-trial');
 
+html {
+    scroll-behavior: smooth; 
+}
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Graphik Trial', sans-serif; 
+    font-family: 'Graphik Trial', sans-serif;
 }
 
 main {
@@ -14,7 +18,10 @@ main {
 }
 
 a{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
+    color: white;
 }
 
 /* COLORS */
@@ -124,7 +131,13 @@ p {
     font-weight: 200;
     cursor: pointer;
     border-radius: 35px;
+    transition-duration: 0.2s;
 }
+
+.btn-default:hover {
+    transform: scale(1.02);
+}
+
 
 .input-default {
     font-family: 'Graphik Trial', sans-serif;
@@ -150,6 +163,7 @@ p {
 }
 
 /* INDIVIDUAL COMPONENTS CSS */
+
 .center-logo {
     position: absolute;
     top: 30px;
@@ -370,10 +384,6 @@ header{
     gap:50px;
 }
 
-.contact-social-icons img{
-    color: #2091F9;
-}
-
 .contact-card {
     width: 400px;
     height: 669px;
@@ -401,4 +411,28 @@ header{
 
 .contact-social-icons a {
     margin-right: 20px;
+}
+
+.footer {
+    background-color: #252B42;
+    width: 100%;
+    height: 70vh;
+}
+
+.footer-content {
+    color: white;
+    padding-top: 20vh;
+}
+
+.footer-ul li{
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.contact-footer div{
+    margin: 20px 0;
+}
+
+.contact-footer div p{
+    margin: 0px 0px 0px 10px;
 }

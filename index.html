@@ -14,11 +14,11 @@
       <nav class="d-flex jc-space-btw al-center">
         <div class="nav-itens d-flex">
           <ul class="ul-default d-flex nav-ul">
-            <li class="c-pointer">Home</li>
-            <li class="c-pointer">Product</li>
-            <li class="c-pointer">Pricing</li>
-            <li class="c-pointer">About</li>
-            <li class="c-pointer">Contact</li>
+            <a><li class="c-pointer">Home</li></a>
+            <a href="#features"><li class="c-pointer">Product</li></a>
+            <a href="#pricing"><li class="c-pointer">Pricing</li></a>
+            <a href="#about"><li class="c-pointer">About</li></a>
+            <a href="#contact"><li class="c-pointer">Contact</li></a>
           </ul>
         </div>
         <div class="nav-social">
@@ -33,7 +33,7 @@
         <button class="btn-default b-radius">Try For Free</button>
       </section>
     </header>
-    <section name="features" class="container">
+    <section id="features" class="container">
       <div class="sections-title txt-center">
         <h2 class="primary-color">Features</h2>
         <h4 class="secondary-color">Most calendars are designed for teams. Slate is designed for freelancers</h4>
@@ -73,7 +73,7 @@
           <script src="./src/js/script.js"></script>
       </div>
     </section>
-    <section class="box container d-flex">
+    <section id="about" class="box container d-flex">
       <div class="try-txt-section d-flex fd-column jc-space-around">
         <h2 class="primary-color">Fastest way to organize</h2>
         <h4 class="secondary-color">Most calendars are designed for teams. Slate is designed for freelancers</h4>
@@ -101,27 +101,27 @@
       </div>
       <div class="clients-section d-flex jc-center al-center txt-center">
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Google</h5>
           <img src="./src/assets/clientLogos/google.svg">
         </div>
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Amazon</h5>
           <img src="./src/assets/clientLogos/amazon.svg">
         </div>
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Microsoft</h5>
           <img src="./src/assets/clientLogos/microsoft.svg">
         </div>
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Uber</h5>
           <img src="./src/assets/clientLogos/uber.svg">
         </div>
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Dropbox</h5>
           <img src="./src/assets/clientLogos/dropbox.svg">
         </div>
         <div class="client d-flex fd-column jc-space-around">
-          <h5>Client Name</h5>
+          <h5>Google</h5>
           <img src="./src/assets/clientLogos/google.svg">
         </div>
       </div>
@@ -142,7 +142,7 @@
       </div>
       <button class="btn-default">More Testimonials</button>
     </section>
-    <section class="pricing">
+    <section id="pricing" class="pricing">
       <div class="container">
         <div class="sections-title txt-center">
           <h2>Pricing</h2>
@@ -217,7 +217,7 @@
         </div>
       </div>
     </section>
-    <section class="contact-container container">
+    <section id="contact" class="contact-container container">
       <div class="sections-title txt-center">
         <h2 class="primary-color">Contact Us</h2>
         <h4 class="secondary-color">Most calendars are designer for teams. Slate is designed for freelancers</h4>
@@ -255,7 +255,53 @@
       </div>
     </section>
     <footer class="footer">
-  
+      <div class="footer-content d-flex jc-space-around container">
+        <div class="footer-list">
+          <ul class="ul-default footer-ul">
+            <h3>Pages</h3>
+            <li>Home</li>
+            <li>Product</li>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="ul-default footer-ul">
+            <h3>Tomothy</h3>
+            <li>Eleanor Edwards</li>
+            <li>Ted Robertson</li>
+            <li>Annette Russell</li>
+            <li>Jennie Mckinney</li>
+            <li>Gloria Richards</li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="ul-default footer-ul">
+            <h3>Jane Black</h3>
+            <li>Philip Jones</li>
+            <li>Product</li>
+            <li>Colleen Russell</li>
+            <li>Marvin Hawkins</li>
+            <li>Bruce Simmons</li>
+          </ul>
+        </div>
+        <div class="contact-footer">
+          <div class="d-flex">
+            <img src="./src/assets/icons/locationWhite.svg">
+            <p>7480 Mockingbird Hill undefined</p>
+          </div>
+          <div class="d-flex">
+            <img src="./src/assets/icons/phoneWhite.svg">
+            <p>(239) 555-0108</p>
+          </div>
+          <div class="d-flex contact-social-icons al-center">
+            <a class="c-pointer"><img src="./src/assets/icons/twitter.svg"></a>
+            <a class="c-pointer"><img src="./src/assets/icons/facebook.svg"></a>
+            <a class="c-pointer"><img src="./src/assets/icons/linkedin.svg"></a>
+          </div>
+        </div>
+      </div>
     </footer>
   </main>
 </body>
